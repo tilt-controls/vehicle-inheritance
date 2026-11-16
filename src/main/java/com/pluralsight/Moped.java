@@ -1,4 +1,10 @@
 package com.pluralsight;
 
 public class Moped extends Vehicle {
+    private boolean hasKickstand;
+
+    public Moped(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, boolean hasKickstand) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+        this.hasKickstand = hasKickstand;
+    }
 }
